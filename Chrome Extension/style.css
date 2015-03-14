@@ -1,0 +1,68 @@
+﻿/*
+* Блокировка начального экрана "EXMAIL це наше мило"
+*/
+#main_page {
+  display: none !important;
+}
+body > table {
+  display: table !important;
+}
+
+/*
+* Блокировка ссылки "EX-Почта"
+* Создание подписи "EX-Файлы"
+*/
+a[href="https://mail.ex.ua/"] {
+  display: none !important;
+}
+a[href="/"]:before {
+  content: url('http://www.ex.ua/get/155124338');
+}
+
+/*
+* Блокировка верхнего узкого баннера
+*/
+#announce {
+  display: none !important;
+}
+td[style="height: 58px;"] {
+  height: 0 !important;
+}
+
+/*
+* Блокировка большого баннера на главной странице
+*/
+#html-id {
+  display: none !important;
+}
+
+/*
+* Скрытие баннера на странице поиска
+*/
+#search_box {
+  background: none !important;
+}
+#search_link {
+  display: none !important;
+}
+
+/*
+* Скрытие баннеров на страницах каталога
+*/
+#ad_block_1, #ad_block_2 {
+  display: none !important;
+}
+
+/*
+* Блокировка ссылок социального ширинга
+*/
+a > img[src="/i/f.png"], a > img[src="/i/v.png"], a > img[src="/i/t.png"], #___plusone_0 {
+  display: none !important;
+}
+
+/*
+* Блокировка кнопки поделиться файлом по почте
+*/
+.mail-add {
+  display: none !important;
+}

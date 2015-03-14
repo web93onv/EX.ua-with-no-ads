@@ -1,0 +1,19 @@
+﻿{
+  "content_scripts": [ {
+    "js": [ "script.js" ],
+    "matches": [ "http://www.ex.ua/*" ],
+    "run_at": "document_start"
+  }, {
+    "css": [ "style.css" ],
+    "matches": [ "http://www.ex.ua/*" ],
+    "run_at": "document_start"
+  }, {
+    "css": [ "style-market.css" ],
+    "matches": [ "http://market.ex.ua/*" ],
+    "run_at": "document_start"
+  } ],
+  "manifest_version": 2,
+  "name": "EX.ua без рекламы!",
+  "version": "1.6.4",
+  "description": "Блокировка назойливой рекламы на EX.ua"
+}

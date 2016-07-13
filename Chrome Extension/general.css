@@ -1,0 +1,49 @@
+﻿#ad_block, #ad_block_1, #ad_block_2 {
+	display: none !important;
+}
+body>table>tbody>tr>td[valign=top]>div:first-child, #index_box {
+	display: none;
+}
+#search_box {
+	background-image: none !important;
+}
+#search_link {
+	display: none !important;
+}
+table div[style~="730px;"] {
+	display: none !important;
+}
+table table[width="730"] {
+	display: none !important;
+}
+
+#announce {
+	display: none !important;
+}
+td[style="height: 58px;"] {
+	height: 0 !important;
+}
+div[id~="dv"] {
+	display: none !important;
+}
+
+a[href^="/ad_click/"] {
+	display: none !important;
+}
+#html-id {
+	display: none !important;
+}
+
+#showbizVideoFeed, *[id^="admixer"] {
+	display: none !important;
+}
+
+/* 13 окт.: огромный, мать его, баннер внизу экрана */
+*[id^='adriver_'] {
+	display: none !important;
+}
+
+/* фикс постоянного прыгания контента при загрузке страницы */
+body > table > tbody > tr:nth-child(1) {
+	height: 0;
+}

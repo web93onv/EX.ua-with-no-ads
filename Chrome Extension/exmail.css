@@ -1,0 +1,12 @@
+﻿/* ересь с главной станиц */
+.mail-howto-bg, .mail-howto-video {
+	display: none !important;
+}
+/* блок отправки сообщения и быстрой регистрации на екс почте */
+.fox_wrap_top {
+	display: none !important;
+}
+/* скрыть кнопку 'отправить по почте' */
+.mail-add {
+	display: none !important;
+}

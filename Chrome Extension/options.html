@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>EX.ua без рекламы!</title>
+	<style>
+	body {
+		min-width: 300px;
+	}
+	* {
+		-webkit-user-select: none;
+	}
+	p.option {
+		border-radius: 3px;
+	}
+	p.option label {
+		align-items: center;
+		display: inline-flex;
+	}
+	p.option label input {
+		flex-shrink: 0;
+	}
+	p.option label span {
+		padding-left: 10px;
+	}
+	hr {
+		border: none;
+		border-bottom: 1px solid #888;
+	}
+	.optionsGroup {
+		padding-left: 25px;
+	}
+	</style>
+</head>
+<body>
+
+<h2>Настройка расширения</h2>
+
+<div class="optionsGroup">
+	<p class="option">
+		<label>
+			<input type="checkbox" id="showpageaction"/> <span>Отображать в адресной строке иконку с настройками</span>
+		</label>
+	</p>
+</div>
+
+<!--<h2 style="margin-top:30px;">Блокировка рекламы</h2>
+
+<div class="optionsGroup">
+	<p class="option">
+		<label>
+			<input type="radio" name="blockType" /> <span>Блокировать всю рекламу</span>
+		</label>
+	</p>
+
+	<p class="option">
+		<label>
+			<input type="radio" name="blockType" /> <span>Блокировать только внешнюю рекламу</span>
+		</label>
+	</p>
+
+	<p class="option">
+		<label>
+			<input type="radio" name="blockType" /> <span>Блокировка погоды Gismeteo</span>
+		</label>
+	</p>
+</div>-->
+
+<h2 style="margin-top:30px;">Главная страница</h2>
+
+<div class="optionsGroup">
+	<p class="option">
+		<label>
+			<input type="checkbox" id="newsblock" /> <span>Блокировка блока новостей (+ популярное, обсуждаемое, рекомендуемое)</span>
+		</label>
+	</p>
+
+	<p class="option">
+		<label>
+			<input type="checkbox" id="gismeteo" /> <span>Блокировка погоды Gismeteo</span>
+		</label>
+	</p>
+
+	<p class="option">
+		<label>
+			<input type="checkbox" id="exshop" /> <span>Блокировка Товары на EX.ua</span>
+		</label>
+	</p>
+</div>
+
+<h2 style="margin-top:30px;">Остальное</h2>
+
+<div class="optionsGroup">
+	<p class="option">
+		<label>
+			<input type="checkbox" id="exmail" /> <span>Блокировка EX-Почты</span>
+		</label>
+	</p>
+
+	<p class="option">
+		<label>
+			<input type="checkbox" id="sharebuttons" /> <span>Блокировка кнопок "Поделиться"</span>
+		</label>
+	</p>
+</div>
+
+<p><button id="save">Сохранить</button> <span id="status"></span></p>
+
+<h2 style="margin-top:30px;">Обратная связь</h2>
+
+<div class="optionsGroup">
+	<p>В случае возникновения проблем обязательно <a href="javascript:void(0)" id="emailBug">сообщите о баге</a>. По любыми другим вопросам также обращайтесь <a href="javascript:void(0)" id="emailOther">на e-mail</a></p>
+</div>
+
+<script src="options.js"></script>
+
+</body>
+</html>
